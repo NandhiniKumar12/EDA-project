@@ -1,0 +1,53 @@
+country,sum(funds_raised_millions)
+"United States",1137327
+India,155865
+China,49997
+Germany,46151
+"United Kingdom",45131
+Netherlands,28642
+Lithuania,24700
+Brazil,18812
+Singapore,15156
+Sweden,14200
+Canada,13392
+Indonesia,13051
+Israel,8940
+Australia,4683
+"United States.",3961
+France,2087
+Austria,1918
+Turkey,1800
+Nigeria,1553
+Spain,1367
+"Hong Kong",1324
+"United Arab Emirates",1034
+Malaysia,981
+Ireland,980
+Norway,956
+Finland,834
+Mexico,807
+Romania,749
+Italy,708
+Argentina,572
+Estonia,461
+Colombia,426
+Chile,408
+Kenya,330
+Senegal,292
+Egypt,264
+"South Korea",240
+Pakistan,235
+Denmark,216
+Portugal,171
+Poland,148
+"New Zealand",130
+Thailand,120
+Hungary,83
+Switzerland,78
+Vietnam,67
+Russia,60
+Japan,26
+Luxembourg,9
+Seychelles,8
+Myanmar,NULL
+Bulgaria,NULL
