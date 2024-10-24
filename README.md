@@ -113,16 +113,17 @@ The layoffs have been distributed across several years. Here is a breakdown of t
 
 > **Graph Placeholder**: Line plot for total layoffs by year.
 
-#### 3. Funds Raised by top 5 countries
+### 3. Total Funds Raised by Country
 
-This section analyzes the top 5 countries which raised maximum fund through lay off  across all the industries and companies. 
+This table summarizes the **total funds raised** by companies in various countries, showing the dominance of the United States in terms of capital raised.
 
-| Company        | Funds Raised (Millions) | Total Laid Off |
-|----------------|-------------------------|----------------|
-| Company A      | 500                     | 10,000         |
-| Company B      | 400                     | 8,500          |
-| Company C      | 300                     | 7,200          |
-![2023 Layoffs Chart](link_to_2023_image.png)
+| Country        | Total Funds Raised (in millions) |
+|----------------|----------------------------------|
+| United States  | 1,137,327                        |
+| India          | 155,865                          |
+| China          | 49,997                           |
+| Germany        | 46,151                           |
+![2023 Layoffs Chart]("C:\Users\suren\Downloads\layoff country.png")
 
 > **Graph Placeholder**: Scatter plot showing funds raised vs layoffs.
 
