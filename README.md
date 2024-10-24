@@ -36,15 +36,51 @@ This analysis is carried out using the following tools:
 
 #### 1. Companies with the Most Layoffs
 
-This analysis ranks companies based on the total number of employees laid off. The top 5 companies with the most significant layoffs are:
+The following table shows the **top 5 companies** with the highest layoffs for each year from **2020 to 2023**. The companies are ranked based on the total number of employees laid off.
 
-| Company        | Total Laid Off |
-|----------------|----------------|
-| Company A      | 10,000         |
-| Company B      | 8,500          |
-| Company C      | 7,200          |
-| Company D      | 6,800          |
-| Company E      | 5,900          |
+#### Layoff Rankings in 2020
+| Rank | Company       | Total Laid Off | Year |
+|------|---------------|----------------|------|
+| 1    | Uber          | 7,525          | 2020 |
+| 2    | Booking.com   | 4,375          | 2020 |
+| 3    | Groupon       | 2,800          | 2020 |
+| 4    | Swiggy        | 2,250          | 2020 |
+| 5    | Airbnb        | 1,900          | 2020 |
+
+#### Layoff Rankings in 2021
+| Rank | Company       | Total Laid Off | Year |
+|------|---------------|----------------|------|
+| 1    | Bytedance     | 3,600          | 2021 |
+| 2    | Katerra       | 2,434          | 2021 |
+| 3    | Zillow        | 2,000          | 2021 |
+| 4    | Instacart     | 1,877          | 2021 |
+| 5    | WhiteHat Jr   | 1,800          | 2021 |
+
+#### Layoff Rankings in 2022
+| Rank | Company       | Total Laid Off | Year |
+|------|---------------|----------------|------|
+| 1    | Meta          | 11,000         | 2022 |
+| 2    | Amazon        | 10,150         | 2022 |
+| 3    | Cisco         | 4,100          | 2022 |
+| 4    | Peloton       | 4,084          | 2022 |
+| 5    | Carvana       | 4,000          | 2022 |
+| 5    | Philips       | 4,000          | 2022 |
+
+#### Layoff Rankings in 2023
+| Rank | Company       | Total Laid Off | Year |
+|------|---------------|----------------|------|
+| 1    | Google        | 12,000         | 2023 |
+| 2    | Microsoft     | 10,000         | 2023 |
+| 3    | Ericsson      | 8,500          | 2023 |
+| 4    | Amazon        | 8,000          | 2023 |
+| 4    | Salesforce    | 8,000          | 2023 |
+| 5    | Dell          | 6,650          | 2023 |
+
+> **Graph Placeholder**: Bar chart or table displaying the total layoffs by company, ranked by year.
+
+---
+
+This table outlines the top layoffs in companies across industries between 2020 and 2023, with **Uber** leading the layoffs in 2020, **Bytedance** in 2021, **Meta** in 2022, and **Google** in 2023. Each ranking highlights the companies that have undergone major workforce reductions in their respective years.
 
 > **Graph Placeholder**: Bar chart of companies by total layoffs.
 
