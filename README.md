@@ -76,6 +76,22 @@ The following table shows the **top 5 companies** with the highest layoffs for e
 | 4    | Salesforce    | 8,000          | 2023 |
 | 5    | Dell          | 6,650          | 2023 |
 
+### Visualizations
+
+You can view the visualizations below for the rankings and layoff insights.
+
+1. **Layoffs by Company in 2020**  
+   ![2020 Layoffs Chart](link_to_2020_image.png)
+   
+2. **Layoffs by Company in 2021**  
+   ![2021 Layoffs Chart](link_to_2021_image.png)
+   
+3. **Layoffs by Company in 2022**  
+   ![2022 Layoffs Chart](link_to_2022_image.png)
+   
+4. **Layoffs by Company in 2023**  
+   ![2023 Layoffs Chart](link_to_2023_image.png)
+
 > **Graph Placeholder**: Bar chart or table displaying the total layoffs by company, ranked by year.
 
 ---
@@ -90,22 +106,23 @@ The layoffs have been distributed across several years. Here is a breakdown of t
 
 | Year  | Total Laid Off |
 |-------|----------------|
-| 2020  | 25,000         |
-| 2021  | 20,000         |
-| 2022  | 30,500         |
-| 2023  | 28,000         |
+| 2020  | 36,706       |
+| 2021  | 10.005        |
+| 2022  | 80,356         |
+| 2023  | 65,800         |
 
 > **Graph Placeholder**: Line plot for total layoffs by year.
 
-#### 3. Funds Raised by Companies vs Layoffs
+#### 3. Funds Raised by top 5 countries
 
-This section analyzes the relationship between the **funds raised** by companies and the **total number of layoffs**. It helps us understand whether companies with higher funding are more likely to lay off employees.
+This section analyzes the top 5 countries which raised maximum fund through lay off  across all the industries and companies. 
 
 | Company        | Funds Raised (Millions) | Total Laid Off |
 |----------------|-------------------------|----------------|
 | Company A      | 500                     | 10,000         |
 | Company B      | 400                     | 8,500          |
 | Company C      | 300                     | 7,200          |
+![2023 Layoffs Chart](link_to_2023_image.png)
 
 > **Graph Placeholder**: Scatter plot showing funds raised vs layoffs.
 
