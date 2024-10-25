@@ -76,25 +76,6 @@ The following table shows the **top 5 companies** with the highest layoffs for e
 | 4    | Salesforce    | 8,000          | 2023 |
 | 5    | Dell          | 6,650          | 2023 |
 
-### Visualizations
-
-You can view the visualizations below for the rankings and layoff insights.
-
-1. **Layoffs by Company in 2020**  
-   ![2020 Layoffs Chart](link_to_2020_image.png)
-   
-2. **Layoffs by Company in 2021**  
-   ![2021 Layoffs Chart](link_to_2021_image.png)
-   
-3. **Layoffs by Company in 2022**  
-   ![2022 Layoffs Chart](link_to_2022_image.png)
-   
-4. **Layoffs by Company in 2023**  
-   ![2023 Layoffs Chart](link_to_2023_image.png)
-
-> **Graph Placeholder**: Bar chart or table displaying the total layoffs by company, ranked by year.
-
----
 
 This table outlines the top layoffs in companies across industries between 2020 and 2023, with **Uber** leading the layoffs in 2020, **Bytedance** in 2021, **Meta** in 2022, and **Google** in 2023. Each ranking highlights the companies that have undergone major workforce reductions in their respective years.
 
@@ -129,33 +110,88 @@ This table summarizes the **total funds raised** by companies in various countri
 
 > **Link to SQL Query**: [Funds Raised vs Layoffs Query](#)
 
-#### 4. Industries Ranking Based on Layoffs
+# Industry Layoff Analysis (2020 - 2023)
 
-Industries are ranked based on the total number of layoffs across all companies in each industry. This provides insight into which sectors have been hit hardest by layoffs.
+## Industry Layoffs by Year and Ranking
 
-| Industry       | Total Laid Off |
-|----------------|----------------|
-| Tech           | 45,000         |
-| Finance        | 20,000         |
-| Retail         | 15,000         |
+The following table shows the **top 5 industries** with the highest layoffs for each year from **2020 to 2023**. The industries are ranked based on the total number of employees laid off.
 
-> **Graph Placeholder**: Bar chart of industries ranked by total layoffs.
+### Layoff Rankings in 2020
+| Rank | Industry       | Total Laid Off | Year |
+|------|----------------|----------------|------|
+| 1    | Transportation  | 14,656         | 2020 |
+| 2    | Travel          | 13,983         | 2020 |
+| 3    | Finance         | 8,624          | 2020 |
+| 4    | Retail          | 8,002          | 2020 |
+| 5    | Food            | 6,218          | 2020 |
 
-> **Link to SQL Query**: [Industry Ranking Query](#)
+### Layoff Rankings in 2021
+| Rank | Industry       | Total Laid Off | Year |
+|------|----------------|----------------|------|
+| 1    | Consumer        | 3,600          | 2021 |
+| 2    | Real Estate     | 2,900          | 2021 |
+| 3    | Food            | 2,644          | 2021 |
+| 4    | Construction    | 2,434          | 2021 |
+| 5    | Education       | 1,943          | 2021 |
+
+### Layoff Rankings in 2022
+| Rank | Industry       | Total Laid Off | Year |
+|------|----------------|----------------|------|
+| 1    | Retail          | 20,914         | 2022 |
+| 2    | Consumer        | 19,856         | 2022 |
+| 3    | Transportation  | 15,227         | 2022 |
+| 4    | Healthcare      | 15,058         | 2022 |
+| 5    | Finance         | 12,684         | 2022 |
+
+### Layoff Rankings in 2023
+| Rank | Industry       | Total Laid Off | Year |
+|------|----------------|----------------|------|
+| 1    | Other           | 28,512         | 2023 |
+| 2    | Consumer        | 15,663         | 2023 |
+| 3    | Retail          | 13,609         | 2023 |
+| 4    | Hardware        | 13,223         | 2023 |
+| 5    | Healthcare      | 9,770          | 2023 |
+
+## Visualizations
+
+You can view the visualizations below for the rankings and layoff insights.
+
+1. **Layoffs by Industry and company  in 2020**  
+   ![2020 Layoffs Chart](link_to_2020_image.png)
+   
+2. **Layoffs by Industry and company in 2021**  
+   ![2021 Layoffs Chart](link_to_2021_image.png)
+   
+3. **Layoffs by Industry  and company in 2022**  
+   ![2022 Layoffs Chart](link_to_2022_image.png)
+   
+4. **Layoffs by Industry and company  in 2023**  
+   ![2023 Layoffs Chart](link_to_2023_image.png)
+
+> **Graph Placeholder**: The above images display the total layoffs by industry, ranked by year.
+
+---
+
+This table outlines the top layoffs in various industries between 2020 and 2023, with **Transportation** leading the layoffs in 2020, **Consumer** in 2021, **Retail** in 2022, and **Other** in 2023. Each ranking highlights the industries that have undergone significant workforce reductions in their respective years.
 
 #### 5. Rolling Analysis of Layoff Data
 
 This section provides a **rolling window analysis** of layoffs to visualize the trend of layoffs over time. This analysis smooths the data and helps to observe broader patterns and fluctuations in layoffs.
 
-| Year-Month | Rolling Average of Layoffs |
-|------------|----------------------------|
-| 2020-01    | 500                        |
-| 2020-02    | 600                        |
-| 2020-03    | 800                        |
+
 
 > **Graph Placeholder**: Line plot showing rolling layoffs over time.
 
+> **SQL Query for rollind data analysis**: 
+
+
+#### 6.Lay-off Analysis for each country 
+
+This section provides a deep insight into the company, industry,maximum layoff done and fundesraised for each **country** over time  
 > **Link to SQL Query**: [Rolling Layoff Data Query](#)
+ **Layoffs analysis for each country over time **  
+   ![2023 Layoffs Chart](link_to_2023_image.png)
+
 
 ### Project Files
 
