@@ -176,19 +176,19 @@ This section provides a **rolling window analysis** of layoffs to visualize the 
 
 > **SQL Query for rollind data analysis**:
 > 
-#####with rolling_total as 
-(
-select substring(`date`,1,7) as `month` , sum(total_laid_off) as total_off from layoffs_stagging_2 where substring(`date`,1,7) is not null
+##### with rolling_total as 
+ ##### (
+##### select substring(`date`,1,7) as `month` , sum(total_laid_off) as total_off from layoffs_stagging_2 where substring(`date`,1,7) is ##### not null
 
- group by month
-order by month asc
-)
-select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total;#####
+ ##### group by month
+##### order by month asc
+##### )
+##### select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total; #####
 
 ### 6.Lay-off Analysis for each country 
 
 This section provides a deep insight into the company, industry,maximum layoff done and fundesraised for each **country** over time  
- **Layoffs analysis for each country over time **  
+**Layoffs analysis for each country over time**  
    ![2023 Layoffs Chart](link_to_2023_image.png)
 
 
@@ -196,7 +196,6 @@ This section provides a deep insight into the company, industry,maximum layoff d
 
 - **Uncleaned Dataset**: [Link to Uncleaned Data](#)
 - **Cleaned Dataset**: [Link to Cleaned Data](#)
-- **Notebook**: [Link to Jupyter Notebook with EDA](#)
 - **SQL Queries**:
   - [Funds Raised vs Layoffs Query](#)
   
