@@ -79,8 +79,6 @@ The following table shows the **top 5 companies** with the highest layoffs for e
 
 This table outlines the top layoffs in companies across industries between 2020 and 2023, with **Uber** leading the layoffs in 2020, **Bytedance** in 2021, **Meta** in 2022, and **Google** in 2023. Each ranking highlights the companies that have undergone major workforce reductions in their respective years.
 
-> **Graph Placeholder**: Bar chart of companies by total layoffs.
-
 #### 2. Layoffs by Year
 
 The layoffs have been distributed across several years. Here is a breakdown of the total layoffs for key years:
@@ -92,7 +90,7 @@ The layoffs have been distributed across several years. Here is a breakdown of t
 | 2022  | 80,356         |
 | 2023  | 65,800         |
 
-> **Graph Placeholder**: Line plot for total layoffs by year.
+
 
 ### 3. Total Funds Raised by Country
 
@@ -106,9 +104,6 @@ This table summarizes the **total funds raised** by companies in various countri
 | Germany        | 46,151                           |
 ![2023 Layoffs Chart]("C:\Users\suren\Downloads\layoff country.png")
 
-> **Graph Placeholder**: Scatter plot showing funds raised vs layoffs.
-
-> **Link to SQL Query**: [Funds Raised vs Layoffs Query](#)
 
 # Industry Layoff Analysis (2020 - 2023)
 
@@ -168,7 +163,7 @@ You can view the visualizations below for the rankings and layoff insights.
 4. **Layoffs by Industry and company  in 2023**  
    ![2023 Layoffs Chart](link_to_2023_image.png)
 
-> **Graph Placeholder**: The above images display the total layoffs by industry, ranked by year.
+
 
 ---
 
@@ -179,19 +174,16 @@ This table outlines the top layoffs in various industries between 2020 and 2023,
 This section provides a **rolling window analysis** of layoffs to visualize the trend of layoffs over time. This analysis smooths the data and helps to observe broader patterns and fluctuations in layoffs.
 
 
-
-> **Graph Placeholder**: Line plot showing rolling layoffs over time.
-
 > **SQL Query for rollind data analysis**:
 > 
-with rolling_total as 
+*with rolling_total as 
 (
 select substring(`date`,1,7) as `month` , sum(total_laid_off) as total_off from layoffs_stagging_2 where substring(`date`,1,7) is not null
 
  group by month
 order by month asc
 )
-select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total;
+select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total;*
 
 #### 6.Lay-off Analysis for each country 
 
@@ -208,9 +200,7 @@ This section provides a deep insight into the company, industry,maximum layoff d
 - **Notebook**: [Link to Jupyter Notebook with EDA](#)
 - **SQL Queries**:
   - [Funds Raised vs Layoffs Query](#)
-  - [Industry Ranking Query](#)
-  - [Rolling Layoff Data Query](#)
-
+  
 ### Conclusion
 
 This EDA project provides key insights into the layoff patterns across companies and industries. Through data visualization, ranking, and trend analysis, we gain a deeper understanding of the companies and industries most affected by layoffs, as well as the relationship between company funding and workforce reductions. Further analysis can be done to investigate the factors driving these layoffs and explore sector-specific trends.
