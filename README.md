@@ -105,9 +105,9 @@ This table summarizes the **total funds raised** by companies in various countri
 ![2023 Layoffs Chart]("C:\Users\suren\Downloads\layoff country.png")
 
 
-# Industry Layoff Analysis (2020 - 2023)
+### 4. Industry Layoff Analysis (2020 - 2023)
 
-## Industry Layoffs by Year and Ranking
+### Industry Layoffs by Year and Ranking
 
 The following table shows the **top 5 industries** with the highest layoffs for each year from **2020 to 2023**. The industries are ranked based on the total number of employees laid off.
 
@@ -169,26 +169,25 @@ You can view the visualizations below for the rankings and layoff insights.
 
 This table outlines the top layoffs in various industries between 2020 and 2023, with **Transportation** leading the layoffs in 2020, **Consumer** in 2021, **Retail** in 2022, and **Other** in 2023. Each ranking highlights the industries that have undergone significant workforce reductions in their respective years.
 
-#### 5. Rolling Analysis of Layoff Data
+### 5. Rolling Analysis of Layoff Data
 
 This section provides a **rolling window analysis** of layoffs to visualize the trend of layoffs over time. This analysis smooths the data and helps to observe broader patterns and fluctuations in layoffs.
 
 
 > **SQL Query for rollind data analysis**:
 > 
-*with rolling_total as 
+#####with rolling_total as 
 (
 select substring(`date`,1,7) as `month` , sum(total_laid_off) as total_off from layoffs_stagging_2 where substring(`date`,1,7) is not null
 
  group by month
 order by month asc
 )
-select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total;*
+select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total;#####
 
-#### 6.Lay-off Analysis for each country 
+### 6.Lay-off Analysis for each country 
 
 This section provides a deep insight into the company, industry,maximum layoff done and fundesraised for each **country** over time  
-> **Link to SQL Query**: [Rolling Layoff Data Query](#)
  **Layoffs analysis for each country over time **  
    ![2023 Layoffs Chart](link_to_2023_image.png)
 
