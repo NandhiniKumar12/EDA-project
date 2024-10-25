@@ -197,7 +197,7 @@ rolling lay -off data fetched through the above query
 This section provides a deep insight into the company, industry,maximum layoff done and fundesraised for each **country** over time  
 **Layoffs analysis for each country over time**  
 **Layoffs by Industry and company  in 2023**  
-   ![2023 Layoffs Chart](EDA/layoff country.png)
+   ![2023 Layoffs Chart](EDA/layoffcountry.png)
 
 
 
