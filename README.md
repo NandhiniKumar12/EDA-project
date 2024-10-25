@@ -102,9 +102,11 @@ This table summarizes the **total funds raised** by companies in various countri
 | India          | 155,865                          |
 | China          | 49,997                           |
 | Germany        | 46,151                           |
-![2023 Layoffs Chart]("C:\Users\suren\Downloads\layoff country.png")
 
+ **total funds raised by top countries**  
+    ![2020 Layoffs Chart](EDA/maxfunds.png) 
 
+   
 ### 4. Industry Layoff Analysis (2020 - 2023)
 
 ### Industry Layoffs by Year and Ranking
