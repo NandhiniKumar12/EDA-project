@@ -195,7 +195,7 @@ This section provides a deep insight into the company, industry,maximum layoff d
 ### Project Files
 
 - **Uncleaned Dataset**: [Link to Uncleaned Data](#)
-- **Cleaned Dataset**: [[Link to Cleaned Data](https://github.com/NandhiniKumar12/EDA-project_layoff-across-the-world-during-the-pandamic/blob/main/cleaned%20data_layoff.csv)](#)
+- **Cleaned Dataset**: [[Link to Cleaned Data](https://github.com/NandhiniKumar12/EDA-project_layoff-across-the-world-during-the-pandamic/blob/main/cleaned%20data_layoff.csv)]
 - **SQL Queries**:
   - [Funds Raised vs Layoffs Query](#)
   
