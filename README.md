@@ -152,16 +152,16 @@ The following table shows the **top 5 industries** with the highest layoffs for 
 You can view the visualizations below for the rankings and layoff insights.
 
 1. **Layoffs by Industry and company  in 2020**  
-   ![2020 Layoffs Chart](20.png)
+   ![2020 Layoffs Chart](EDA/20.png)
    
 2. **Layoffs by Industry and company in 2021**  
-   ![2021 Layoffs Chart](21.png)
+   ![2021 Layoffs Chart](EDA/21.png)
    
 3. **Layoffs by Industry  and company in 2022**  
-   ![2022 Layoffs Chart](22.png)
+   ![2022 Layoffs Chart](EDA/22.png)
    
 4. **Layoffs by Industry and company  in 2023**  
-   ![2023 Layoffs Chart](23.png)
+   ![2023 Layoffs Chart](EDA/23.png)
 
 
 
@@ -194,7 +194,9 @@ rolling lay -off data fetched through the above query
 
 This section provides a deep insight into the company, industry,maximum layoff done and fundesraised for each **country** over time  
 **Layoffs analysis for each country over time**  
-   ![2023 Layoffs Chart](link_to_2023_image.png)
+**Layoffs by Industry and company  in 2023**  
+   ![2023 Layoffs Chart](EDA/layoff country.png)
+
 
 
 ### Project Files
