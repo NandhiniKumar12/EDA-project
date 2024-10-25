@@ -185,6 +185,11 @@ This section provides a **rolling window analysis** of layoffs to visualize the 
 ##### )
 ##### select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total; #####
 
+rolling lay -off data fetched through the above query
+
+- **Rolling lay off trend with year**: [[Link to rolling data trend ](https://github.com/NandhiniKumar12/EDA-project_layoff-across-the-world-during-the-pandamic/blob/main/rolling_layoff_year.csv)]
+
+
 ### 6.Lay-off Analysis for each country 
 
 This section provides a deep insight into the company, industry,maximum layoff done and fundesraised for each **country** over time  
@@ -194,7 +199,7 @@ This section provides a deep insight into the company, industry,maximum layoff d
 
 ### Project Files
 
-- **Uncleaned Dataset**: [Link to Uncleaned Data](#)
+- **Uncleaned Dataset**: [Link to Uncleaned Data](https://github.com/NandhiniKumar12/EDA-project_layoff-across-the-world-during-the-pandamic/blob/main/lay0ff_EDA.sql)]
 - **Cleaned Dataset**: [[Link to Cleaned Data](https://github.com/NandhiniKumar12/EDA-project_layoff-across-the-world-during-the-pandamic/blob/main/cleaned%20data_layoff.csv)]
 - **SQL Queries**:
   - [Funds Raised vs Layoffs Query](#)
