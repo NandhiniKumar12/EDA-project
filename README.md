@@ -182,8 +182,16 @@ This section provides a **rolling window analysis** of layoffs to visualize the 
 
 > **Graph Placeholder**: Line plot showing rolling layoffs over time.
 
-> **SQL Query for rollind data analysis**: 
+> **SQL Query for rollind data analysis**:
+> 
+with rolling_total as 
+(
+select substring(`date`,1,7) as `month` , sum(total_laid_off) as total_off from layoffs_stagging_2 where substring(`date`,1,7) is not null
 
+ group by month
+order by month asc
+)
+select  `month` ,total_off,sum(total_off) over(order by `month`)  as rolling_total  from rolling_total;
 
 #### 6.Lay-off Analysis for each country 
 
